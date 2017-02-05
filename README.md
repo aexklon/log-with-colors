@@ -3,6 +3,7 @@ Simple syntax for logging to console using colors, based on [chalk](https://gith
 ```javascript
 log.green('This will log to the console in the green color')
 ```
+![](https://github.com/al-lopes/log-with-colors/blob/master/README.png?raw=true)
 
 ## Install
 
