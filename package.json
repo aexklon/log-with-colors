@@ -1,6 +1,6 @@
 {
   "name": "log-with-colors",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "simple syntax for logging to console using colors, based on colors.js",
   "main": "index.js",
   "scripts": {
