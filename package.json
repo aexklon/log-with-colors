@@ -9,15 +9,18 @@
   "keywords": [
     "log",
     "console.log",
-		"console",
+    "console",
     "colors",
     "colors.js"
   ],
   "author": "al-lopes <alexandre@alexandrelopes.design> (http://alexandrelopes.design)",
   "license": "MIT",
-	"readme": "read.me",
+  "readme": "read.me",
   "repository": {
     "type": "git",
     "url": "git@github.com:al-lopes/log-with-colors.git"
+  },
+  "dependencies": {
+    "chalk": "^1.1.3"
   }
 }

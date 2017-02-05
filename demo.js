@@ -3,25 +3,22 @@ const log = require('./index.js')
 log(
 	'\n'+
 	'The package log-with-colors adds some new logging functions using\n'+
-	'process.stdout and colors.js:'
+	'process.stdout and chalk.js'
 )
-log.error('log.error() should be cyan')
-log.info('log.info() should be blue')
-log.warn('log.warn() should be yellow')
-log.success('log.success() should be green')
+log.gray('log.gray() should be gray')
+log.blue('log.blue() should be blue')
+log.cyan('log.cyan() should be cyan')
+log.green('log.green() should be green')
+log.yellow('log.yellow() should be yellow')
+log.red('log.red() should be red')
+log.magenta('log.magenta() should be magenta')
 log('log() is a console.log look-alike')
-log(
-	'\nIt inherits the String.prototype colors.js extention, allowing you to compose:\n'+
-	'\'Hello World!\''.blue+'.blue\n'+
-	'\'Hello World!\''.magenta+'.magenta\n'+
-	'\'Hello World!\''.bold +'.bold\n'+
-	'\'Hello World!\''.inverse+'.inverse\n'+
-	'\'Hello World!\''.grey.inverse+'.grey.inverse\n'+
-	'\n'+
-	'To know more about log-with-colors and colors.js, access:\n'+
-	'https://github.com/al-lopes/log-with-colors\n'.magenta+
-	'https://github.com/Marak/colors.js\n'.magenta+
-	'To know more about console specifications, access:\n'+
-	'https://console.spec.whatwg.org\n'.magenta+
-	'Thank you very much for your download!\n'.green
-)
+log.error('log.error() prints with process.stderr')
+log.success('log.success() is equal to log.green()')
+log.warn('log.warn() is equal to log.yellow()')
+log.info('log.info() is equal to log.cyan()')
+log('\nTo know more about log-with-colors, chalk.js and console logging, access:')
+log.magenta('https://github.com/al-lopes/log-with-colors')
+log.magenta('https://github.com/chalk/chalk')
+log.magenta('https://console.spec.whatwg.org')
+log.green('Thank you very much for your download!\n')
