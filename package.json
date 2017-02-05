@@ -1,6 +1,6 @@
 {
   "name": "log-with-colors",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "simple syntax for logging to console using colors, based on colors.js",
   "main": "index.js",
   "scripts": {
@@ -11,7 +11,7 @@
     "console.log",
     "console",
     "colors",
-    "colors.js"
+    "chalk.js"
   ],
   "author": "al-lopes <alexandre@alexandrelopes.design> (http://alexandrelopes.design)",
   "license": "MIT",
