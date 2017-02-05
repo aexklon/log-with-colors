@@ -1,0 +1,23 @@
+{
+  "name": "log-with-colors",
+  "version": "1.0.0",
+  "description": "simple syntax for logging to console using colors, based on colors.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "node demo.js"
+  },
+  "keywords": [
+    "log",
+    "console.log",
+		"console",
+    "colors",
+    "colors.js"
+  ],
+  "author": "al-lopes <alexandre@alexandrelopes.design> (http://alexandrelopes.design)",
+  "license": "MIT",
+	"readme": "read.me",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:al-lopes/log-with-colors.git"
+  }
+}
