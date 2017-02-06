@@ -15,7 +15,7 @@
   ],
   "author": "al-lopes <alexandre@alexandrelopes.design> (http://alexandrelopes.design)",
   "license": "MIT",
-  "readme": "read.me",
+  "readme": "README.md",
   "repository": {
     "type": "git",
     "url": "git@github.com:al-lopes/log-with-colors.git"
