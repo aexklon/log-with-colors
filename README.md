@@ -1,5 +1,5 @@
 # log-with-colors
-Simple syntax for logging to console using colors, based on [chalk](https://github.com/chalk/chalk)
+Log with colors is a simple syntax for logging to console using colors, based on [chalk](https://github.com/chalk/chalk)
 ```javascript
 log.green('This will log to the console in the green color')
 ```
