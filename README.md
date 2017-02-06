@@ -17,7 +17,7 @@ $ npm i -S log-with-colors
 const log = require('log-with-colors')
 ```
 ```javascript
-log.sucess('Hello World') //logs to the console in the green color
+log.success('Hello World') //logs to the console in the green color
 ```
 
 ## API
