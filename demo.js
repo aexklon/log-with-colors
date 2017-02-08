@@ -3,7 +3,7 @@ const log = require('./index.js')
 log(
 	'\n'+
 	'The package log-with-colors adds some new logging functions using\n'+
-	'process.stdout and chalk.js'
+	'process.stdout and chalk'
 )
 log.gray('log.gray() should be gray')
 log.blue('log.blue() should be blue')
