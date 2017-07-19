@@ -1,7 +1,7 @@
 # log-with-colors
-Log with colors is a simple syntax for logging to console using colors, based on [chalk](https://github.com/chalk/chalk)
+Log with colors is a simple syntax to colored console log, based on [chalk](https://github.com/chalk/chalk)
 ```javascript
-log.green('This will log to the console in the green color')
+log.green('This will log to console in green')
 ```
 ![](https://github.com/al-lopes/log-with-colors/blob/master/README.png?raw=true)
 
@@ -17,7 +17,7 @@ $ npm i -S log-with-colors
 const log = require('log-with-colors')
 ```
 ```javascript
-log.success('Hello World') //logs to the console in the green color
+log.success('Hello World') //logs to the console in green
 ```
 
 ## API
